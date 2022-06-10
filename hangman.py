@@ -31,20 +31,20 @@ pygame.display.set_caption("Hangman")
 
 game_over = False
 
-# colors
+# boje
 WHITE = (255,255,255)
 BLACK = (0,0,0)
 
-# Images
+# slike
 IMAGES = []
 hangman_satus = 0
 
 for i in range(7):
-    image = pygame.image.load(f"images/hangman{i}.png")
+    image = pygame.image.load(f"Slike_Hangman/hangman{i}.png")
     IMAGES.append(image)
 
 
-# Buttons
+# botuni
 ROWS = 2
 COLS = 13
 GAP = 20
